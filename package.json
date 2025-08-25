@@ -5,14 +5,24 @@
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web"
+    "ios": "expo start -c --ios",
+    "web": "expo start -c --web"
   },
   "dependencies": {
+    "@expo-google-fonts/inter": "^0.4.1",
+    "@expo/vector-icons": "^14.1.0",
+    "@react-native-vector-icons/ionicons": "^12.3.0",
     "expo": "~53.0.20",
+    "expo-font": "~13.3.2",
     "expo-status-bar": "~2.2.3",
+    "nativewind": "^4.1.23",
+    "prettier-plugin-tailwindcss": "^0.5.14",
     "react": "19.0.0",
-    "react-native": "0.79.5"
+    "react-native": "0.79.5",
+    "react-native-reanimated": "~3.17.4",
+    "react-native-safe-area-context": "^5.4.0",
+    "tailwindcss": "^3.4.17",
+    "expo-router": "~5.1.4"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
